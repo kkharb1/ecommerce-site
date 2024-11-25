@@ -11,7 +11,7 @@ if (!isset($_SESSION['username'])) {
 $user_id = $_SESSION['user_id'];
 
 echo "<h2>Checkout</h2>";
-
+// test git
 // Fetch items from cart to display for final confirmation
 $sql = "SELECT p.name, p.price, c.quantity 
         FROM cart c 
